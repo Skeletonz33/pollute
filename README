@@ -1,6 +1,7 @@
 	POLLUTE
 Pollute is a small utility that stamps a file with a comment claiming your (or someone else's) ownership of that file, it also includes the date of creation, name of the file, and the name of the project.
 It will reject any file that is larger than exactly 16MB, not because the code is shit, but because I said so
+The code is not of the best quality, because it is a 90-minute prototype I wrote, but it's functional, so you have nothing to complain about
 
 HOW TO USE POLLUTE
   Just type `pollute file project author year month date`
@@ -8,3 +9,6 @@ HOW TO USE POLLUTE
 
 HOW TO COMPILE POLLUTE
   Type `make all` and that's it
+
+REPORTING BUGS
+  If any bugs are found, please report to skeletonz33.skeleos@gmail.com
