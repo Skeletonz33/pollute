@@ -1,2 +1,10 @@
-# pollute
-Pollute is a small utility designed to prepend C files with a comment showing the creator, date of creation, etc.
+	POLLUTE
+Pollute is a small utility that stamps a file with a comment claiming your (or someone else's) ownership of that file, it also includes the date of creation, name of the file, and the name of the project.
+It will reject any file that is larger than exactly 16MB, not because the code is shit, but because I said so
+
+HOW TO USE POLLUTE
+  Just type `pollute file project author year month date`
+  Warning: pollute will write every parameter you give it exactly as is, that means if you input `shit` as the year, it will write that as the year
+
+HOW TO COMPILE POLLUTE
+  Type `make all` and that's it
